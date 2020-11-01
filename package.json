@@ -1,0 +1,41 @@
+{
+	"name": "cobol-unittest-syntax-highlighting",
+	"displayName": "COBOL-unittest-syntax-highlighting",
+	"description": "syntax highlighting COBOL unittest language",
+	"version": "0.0.1",
+	"publisher": "Oakmount",
+	"repository": "https://github.com/oakmount66/Moretti.git",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "unittest",
+				"aliases": [
+					"UNITTEST",
+					"unittest"
+				],
+				"extensions": [
+					".UT"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "unittest",
+				"scopeName": "source.unittest",
+				"path": "./syntaxes/unittest.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "ec26019b-c87c-45df-8088-77dd8a0b987c",
+		"publisherId": "e7819557-85bc-4656-8a9b-efe650a2f6b6",
+		"publisherDisplayName": "Lars Egeberg Hansen"
+	}
+}
