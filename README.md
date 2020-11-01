@@ -1,22 +1,19 @@
-# rexx README
+# COBOL unittest syntax highlighting README
 
-This is the README for rexx-syntax-highlighting.
+This is the README for cobol-unittest-syntax-highlighting.
+The extension is a copy of the rexx-syntax-highligthing and just changed to cover the COBOL unittest language.
 
 ## Features
 
-syntax highlighting for rexx
+Syntax highlighting for COBOL unittest
 
 ## Known Issues
 
-Not aware of "Umlaute" in comments.
+No known issues.
 
 ## Release Notes
 
-### 1.0.3
-
-added do,end to brackets
-
-### 1.0.0
+### 0.0.1
 
 Initial release
 
