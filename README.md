@@ -19,7 +19,7 @@ Initial release
 
 ## Credits
 
-[mblocker](https://github.com/mblocker) - [sublime syntx highlighting (rexx.tmLanguage)](https://github.com/mblocker/rexx-sublime) 
+[mblocker](https://github.com/mblocker) - [sublime syntax highlighting (rexx.tmLanguage)](https://github.com/mblocker/rexx-sublime) 
 
 
 -----------------------------------------------------------------------------------------------------------

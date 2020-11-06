@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:do|forever|while|until|to|by|for|end|exit|if|then|else|iterate|leave|nop|return|select|when|otherwise|call(\s+(off|on)\s+(error|failure(\s+name)?|halt))?|signal(\s+(off|on)\s+(error|failure(\s+name)?|halt|novalue|syntax))|address\s+\w+|arg|drop|interpret|numeric\s+(digits|form(\s+(scientific|engineering|value))?|fuzz)|options|parse(\s+upper)?\s+(external|numeric|source|value|var|version)?|with|procedure(\s+expose)?|pull|push|queue|say|trace\s+\w+|upper)\b(?!\.)</string>
+			<string>\b(?i:testsuite|testcase|before-each|end-before|after-each|end-after|expect|ignore|mock|end-mock|verify)\b(?!\.)</string>
 			<key>name</key>
 			<string>keyword.unittest</string>
 		</dict>
