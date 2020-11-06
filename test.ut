@@ -1,5 +1,8 @@
+* Kommentar
 expect ws-programnavn to be numeric
 mock call
 end-mock
 after-each
 end-after
+MOCK CALL
+mock section

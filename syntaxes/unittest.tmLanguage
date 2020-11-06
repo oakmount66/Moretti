@@ -18,9 +18,9 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>/\*</string>
+			<string>\*</string>
 			<key>end</key>
-			<string>\*/</string>
+			<string>\n</string>
 			<key>name</key>
 			<string>comment.unittest</string>
 		</dict>
@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:testsuite|testcase|before-each|end-before|after-each|end-after|expect|ignore|mock|end-mock|verify)\b(?!\.)</string>
+			<string>\b(?i:testsuite|testcase|before-each|end-before|after-each|end-after|expect(\s+?)\s+(to\s+be)|ignore|mock(\s+(call|file|section|paragraph))|end-mock|verify)\b(?!\.)</string>
 			<key>name</key>
 			<string>keyword.unittest</string>
 		</dict>
