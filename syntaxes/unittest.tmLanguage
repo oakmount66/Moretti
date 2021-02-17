@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:testsuite|testcase|before-each|end-before|after-each|end-after|expect(\s+?)\s+(to\s+be)|ignore|mock(\s+(call|file|section|paragraph))|end-mock|verify)\b(?!\.)</string>
+			<string>\b(?i:testsuite|testcase|before-each|end-before|after-each|end-after|expect(\s+(to be|not to be)\s+(numeric))|ignore|mock(\s+(call|file|section|paragraph))|end-mock|verify)\b(?!\.)</string>
 			<key>name</key>
 			<string>keyword.unittest</string>
 		</dict>

@@ -1,5 +1,5 @@
 * Kommentar
-expect ws-programnavn to be numeric
+expect ws- not to be numeric
 mock call
 end-mock
 after-each
